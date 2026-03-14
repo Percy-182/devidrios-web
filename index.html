@@ -1,0 +1,970 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>devidrios | Carpintería en Aluminio | Puente Alto</title>
+    <meta
+      name="description"
+      content="Fabricación, reparación e instalación de ventanas, shower door, termopaneles, espejos y bow window. Taller físico en Puente Alto. Cotiza por WhatsApp."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Lightbox (no API) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#mainNav"
+    data-bs-offset="84"
+    tabindex="0"
+  >
+    <!-- NAV -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top nav-glass">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2"
+          href="#inicio"
+          aria-label="devidrios - Inicio"
+        >
+          <!-- LOGO (opcional):
+             1) Crea carpeta: assets/img/
+             2) Copia tu logo: assets/img/logo-devidrios.png
+             3) Descomenta y ajusta src
+        -->
+          <!-- <img src="assets/img/logo-devidrios.png" alt="devidrios" class="brand-logo"> -->
+          <span class="brand-word">
+            <span class="brand-de">de</span
+            ><span class="brand-vidrios">vidrios</span>
+          </span>
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-label="Abrir menú"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proceso">Proceso</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ubicacion">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item ms-lg-2">
+              <a
+                class="btn btn-accent rounded-pill px-3"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/56967170330?text=Hola,%20vengo%20de%20la%20web%20devidrios%20y%20quiero%20cotizar.%20Necesito:%20____.%20Comuna:%20____."
+              >
+                <i class="fa-brands fa-whatsapp me-1"></i> Cotizar
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="inicio" class="hero">
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7 text-center text-lg-start">
+            <div
+              class="d-inline-flex flex-wrap gap-2 mb-3 justify-content-center justify-content-lg-start"
+            >
+              <span class="chip"
+                ><i class="fa-solid fa-store me-2"></i>Taller físico</span
+              >
+              <span class="chip"
+                ><i class="fa-solid fa-truck-fast me-2"></i>Instalación a
+                domicilio</span
+              >
+              <span class="chip"
+                ><i class="fa-solid fa-screwdriver-wrench me-2"></i>Fabricación
+                a medida</span
+              >
+            </div>
+
+            <h1 class="display-5 fw-bold text-white hero-title">
+              Carpintería en Aluminio<br />en Puente Alto
+            </h1>
+
+            <!-- FIX: el problema era que "text-white-75" NO existe en Bootstrap.
+               Se veía oscuro por fallback. Lo dejamos, pero ahora está definido en CSS como utilidad.
+          -->
+            <p class="lead text-white-75 hero-subtitle mt-3">
+              Fabricación, reparación e instalación de
+              <strong>ventanas</strong>, <strong>shower door</strong>,
+              <strong>termopaneles</strong>, <strong>espejos</strong> y
+              <strong>bow window</strong>. También puedes
+              <strong>retirar tu trabajo en nuestro taller</strong>.
+            </p>
+
+            <div
+              class="d-flex flex-column flex-sm-row gap-3 mt-4 justify-content-center justify-content-lg-start"
+            >
+              <a
+                class="btn btn-accent btn-lg rounded-pill px-4 shadow-sm cta-pulse"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Producto:%20(ventana/shower%20door/termopanel/espejo/bow%20window).%20Medidas:%20____.%20Comuna:%20____.%20¿Puedo%20enviar%20fotos?"
+              >
+                <i class="fa-brands fa-whatsapp me-2"></i> Cotizar por WhatsApp
+              </a>
+
+              <a
+                class="btn btn-outline-light btn-lg rounded-pill px-4"
+                href="#ubicacion"
+              >
+                Ver taller y ubicación
+              </a>
+            </div>
+
+            <div
+              class="hero-trust mt-4 d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start"
+            >
+              <span class="trust"
+                ><i class="fa-solid fa-circle-check me-2"></i>Trabajo
+                prolijo</span
+              >
+              <span class="trust"
+                ><i class="fa-solid fa-shield-halved me-2"></i>Materiales de
+                calidad</span
+              >
+              <span class="trust"
+                ><i class="fa-solid fa-clock me-2"></i>Coordinación rápida</span
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card">
+              <div
+                class="d-flex align-items-start justify-content-between gap-3"
+              >
+                <div>
+                  <h2 class="h5 fw-bold mb-1">Cotización rápida</h2>
+                  <p class="text-muted mb-3 small">
+                    Envíanos por WhatsApp: <strong>foto</strong>,
+                    <strong>medidas</strong> y <strong>comuna</strong>.
+                  </p>
+                </div>
+                <div class="hero-badge">
+                  <i class="fa-solid fa-ruler-combined"></i>
+                </div>
+              </div>
+
+              <div class="list-compact">
+                <div class="li">
+                  <i class="fa-solid fa-window-maximize"></i
+                  ><span>Ventanas y marcos</span>
+                </div>
+                <div class="li">
+                  <i class="fa-solid fa-shower"></i><span>Shower Door</span>
+                </div>
+                <div class="li">
+                  <i class="fa-solid fa-snowflake"></i><span>Termopanel</span>
+                </div>
+                <div class="li">
+                  <i class="fa-regular fa-square"></i><span>Espejos</span>
+                </div>
+                <div class="li">
+                  <i class="fa-solid fa-archway"></i><span>Bow Window</span>
+                </div>
+              </div>
+
+              <a
+                class="btn btn-success w-100 rounded-pill mt-4"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20foto."
+              >
+                <i class="fa-brands fa-whatsapp me-2"></i> Abrir WhatsApp
+              </a>
+
+              <div class="small text-muted mt-3">
+                <i class="fa-solid fa-location-dot me-2"></i>
+                Calle Paine 2374, Puente Alto
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-5 bg-surface">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-ink">Servicios</h2>
+          <div class="divider mx-auto"></div>
+          <p class="text-muted mt-3">
+            Haz clic en “Ver detalles” para descripción + botón directo de
+            cotización por WhatsApp.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill">
+                <i class="fa-solid fa-window-maximize"></i>
+              </div>
+              <h3 class="h5 fw-bold mt-3">Ventanas</h3>
+              <p class="text-muted small mb-4">
+                Fabricación, instalación y reparación de ventanas en aluminio.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mVentanas"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill"><i class="fa-solid fa-shower"></i></div>
+              <h3 class="h5 fw-bold mt-3">Shower Door</h3>
+              <p class="text-muted small mb-4">
+                Puertas de ducha a medida: vidrio, herrajes y terminaciones.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mShower"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill"><i class="fa-solid fa-snowflake"></i></div>
+              <h3 class="h5 fw-bold mt-3">Termopaneles</h3>
+              <p class="text-muted small mb-4">
+                Mejora térmica y acústica. Reemplazos y nuevas instalaciones.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mTermo"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill"><i class="fa-regular fa-square"></i></div>
+              <h3 class="h5 fw-bold mt-3">Espejos</h3>
+              <p class="text-muted small mb-4">
+                Espejos a medida para baño, living, gimnasio o comercio.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mEspejos"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill"><i class="fa-solid fa-archway"></i></div>
+              <h3 class="h5 fw-bold mt-3">Bow Window</h3>
+              <p class="text-muted small mb-4">
+                Diseño y fabricación de bow window para mayor luz y espacio.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mBow"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-soft h-100 p-4">
+              <div class="icon-pill">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+              <h3 class="h5 fw-bold mt-3">Reparación e Instalación</h3>
+              <p class="text-muted small mb-4">
+                Ajustes, sellos, correderas, cambios de vidrio y más.
+              </p>
+              <button
+                class="btn btn-outline-brand rounded-pill mt-auto"
+                data-bs-toggle="modal"
+                data-bs-target="#mReparacion"
+              >
+                Ver detalles
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a
+            class="fw-semibold link-brand text-decoration-none"
+            target="_blank"
+            rel="noopener"
+            href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Producto:%20____.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20fotos."
+          >
+            Cotiza en 1 minuto por WhatsApp
+            <i class="fa-solid fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRABAJOS -->
+    <section id="trabajos" class="py-5">
+      <div class="container py-4">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4"
+        >
+          <div>
+            <h2 class="fw-bold text-ink mb-1">Trabajos recientes</h2>
+            <div class="divider"></div>
+            <p class="text-muted mt-3 mb-0">
+              Galería (manual). Reemplaza estas fotos por las tuyas para mayor
+              confianza.
+            </p>
+          </div>
+
+          <div class="d-flex gap-2">
+            <a
+              class="btn btn-outline-brand rounded-pill px-3"
+              target="_blank"
+              rel="noopener"
+              href="https://instagram.com/"
+            >
+              <i class="fa-brands fa-instagram me-2"></i>Instagram
+            </a>
+            <a
+              class="btn btn-outline-brand rounded-pill px-3"
+              target="_blank"
+              rel="noopener"
+              href="https://facebook.com/"
+            >
+              <i class="fa-brands fa-facebook me-2"></i>Facebook
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-6 col-md-4 col-lg-3">
+            <a
+              class="glightbox work"
+              href="https://images.unsplash.com/photo-1527030280862-64139fba04ca?w=1600&q=80"
+              data-gallery="devidrios"
+              data-title="Ventana aluminio - ejemplo"
+            >
+              <img
+                class="img-fluid w-100 work-img"
+                src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?w=800&q=80"
+                alt="Trabajo 1"
+              />
+              <span class="work-tag">Ver</span>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <a
+              class="glightbox work"
+              href="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1600&q=80"
+              data-gallery="devidrios"
+              data-title="Shower door - ejemplo"
+            >
+              <img
+                class="img-fluid w-100 work-img"
+                src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80"
+                alt="Trabajo 2"
+              />
+              <span class="work-tag">Ver</span>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <a
+              class="glightbox work"
+              href="https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1600&q=80"
+              data-gallery="devidrios"
+              data-title="Termopanel - ejemplo"
+            >
+              <img
+                class="img-fluid w-100 work-img"
+                src="https://images.unsplash.com/photo-1505693314120-0d443867891c?w=800&q=80"
+                alt="Trabajo 3"
+              />
+              <span class="work-tag">Ver</span>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3">
+            <a
+              class="glightbox work"
+              href="https://images.unsplash.com/photo-1582582429416-38c1b3b4a2a5?w=1600&q=80"
+              data-gallery="devidrios"
+              data-title="Espejo a medida - ejemplo"
+            >
+              <img
+                class="img-fluid w-100 work-img"
+                src="https://images.unsplash.com/photo-1582582429416-38c1b3b4a2a5?w=800&q=80"
+                alt="Trabajo 4"
+              />
+              <span class="work-tag">Ver</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <a
+            class="btn btn-accent rounded-pill px-4"
+            target="_blank"
+            rel="noopener"
+            href="https://wa.me/56967170330?text=Hola,%20vi%20sus%20trabajos%20y%20quiero%20cotizar.%20Producto:%20____.%20Medidas:%20____.%20Comuna:%20____."
+          >
+            <i class="fa-brands fa-whatsapp me-2"></i> Cotizar mi proyecto
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso" class="py-5 bg-surface">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-ink">¿Cómo trabajamos?</h2>
+          <div class="divider mx-auto"></div>
+          <p class="text-muted mt-3">
+            Simple, directo y con taller físico para fabricar y retirar.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="step card-soft p-4 h-100">
+              <div class="step-n">1</div>
+              <h3 class="h6 fw-bold mt-3">Envío de datos</h3>
+              <p class="text-muted small mb-0">
+                Foto + medidas + comuna por WhatsApp.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="step card-soft p-4 h-100">
+              <div class="step-n">2</div>
+              <h3 class="h6 fw-bold mt-3">Cotización</h3>
+              <p class="text-muted small mb-0">
+                Te damos valor y plazos según tu requerimiento.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="step card-soft p-4 h-100">
+              <div class="step-n">3</div>
+              <h3 class="h6 fw-bold mt-3">Fabricación</h3>
+              <p class="text-muted small mb-0">
+                Se fabrica a medida en nuestro taller.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="step card-soft p-4 h-100">
+              <div class="step-n">4</div>
+              <h3 class="h6 fw-bold mt-3">Instalación o retiro</h3>
+              <p class="text-muted small mb-0">
+                Instalación a domicilio o retiro en taller.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a
+            class="btn btn-success rounded-pill px-4"
+            target="_blank"
+            rel="noopener"
+            href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Producto:%20____.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20foto."
+          >
+            <i class="fa-brands fa-whatsapp me-2"></i> Enviar medidas por
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="py-5">
+      <div class="container py-4">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <h2 class="fw-bold text-ink mb-2">Taller físico</h2>
+            <div class="divider"></div>
+            <p class="text-muted mt-3">
+              Puedes coordinar instalación a domicilio o fabricar y retirar en
+              nuestro taller.
+            </p>
+
+            <div class="info-card card-soft p-4 mt-4">
+              <div class="d-flex gap-3 align-items-start">
+                <div class="info-ico">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="fw-semibold text-ink">Dirección</div>
+                  <div class="text-muted" id="addrText">
+                    Calle Paine 2374, Puente Alto
+                  </div>
+
+                  <div class="d-flex flex-wrap gap-2 mt-3">
+                    <button
+                      class="btn btn-outline-brand rounded-pill px-3"
+                      id="btnCopyAddr"
+                      type="button"
+                    >
+                      <i class="fa-regular fa-copy me-2"></i>Copiar dirección
+                    </button>
+
+                    <a
+                      class="btn btn-outline-brand rounded-pill px-3"
+                      target="_blank"
+                      rel="noopener"
+                      href="https://www.google.com/maps/search/?api=1&query=Calle%20Paine%202374%2C%20Puente%20Alto"
+                    >
+                      <i class="fa-solid fa-map-location-dot me-2"></i>Abrir en
+                      Maps
+                    </a>
+                  </div>
+
+                  <div
+                    class="small text-muted mt-2"
+                    id="copyHint"
+                    aria-live="polite"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <a
+                class="btn btn-accent rounded-pill px-4"
+                target="_blank"
+                rel="noopener"
+                href="https://wa.me/56967170330?text=Hola,%20quiero%20visitar%20el%20taller.%20¿Me%20pueden%20indicar%20horario%20y%20disponibilidad?"
+              >
+                <i class="fa-brands fa-whatsapp me-2"></i> Consultar horario
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="map-wrap card-soft p-2 h-100">
+              <iframe
+                title="Mapa - Calle Paine 2374, Puente Alto"
+                class="map-iframe"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Calle%20Paine%202374%2C%20Puente%20Alto&output=embed"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-5 bg-surface">
+      <div class="container py-4">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="card-soft p-4 p-md-5 h-100">
+              <h2 class="fw-bold text-ink mb-2">Contacto</h2>
+              <div class="divider"></div>
+              <p class="text-muted mt-3 mb-4">
+                Atendemos principalmente por WhatsApp para responder rápido y
+                cotizar con fotos/medidas.
+              </p>
+
+              <div class="contact-row">
+                <div class="c-ico wa">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <div class="small text-muted">WhatsApp</div>
+                  <a
+                    class="fw-semibold link-dark text-decoration-none"
+                    target="_blank"
+                    rel="noopener"
+                    href="https://wa.me/56967170330"
+                  >
+                    +56 9 6717 0330
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <div class="c-ico loc">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="small text-muted">Taller</div>
+                  <div class="fw-semibold">Calle Paine 2374, Puente Alto</div>
+                </div>
+              </div>
+
+              <div class="mt-4 d-flex flex-wrap gap-2">
+                <span class="pill"
+                  ><i class="fa-solid fa-store me-2"></i>Taller físico</span
+                >
+                <span class="pill"
+                  ><i class="fa-solid fa-truck me-2"></i>Domicilio</span
+                >
+                <span class="pill"
+                  ><i class="fa-solid fa-pen-ruler me-2"></i>A medida</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="cta-card p-4 p-md-5 h-100 text-white">
+              <h3 class="fw-bold mb-2">¿Qué necesitas fabricar o instalar?</h3>
+              <p class="text-white-75 mb-4">
+                Envíanos: <strong>foto</strong>, <strong>medidas</strong> y
+                <strong>comuna</strong>. Si es reparación, cuéntanos el problema
+                (desajuste, vidrio roto, filtración, etc.).
+              </p>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <a
+                    class="btn btn-success btn-lg w-100 rounded-pill"
+                    target="_blank"
+                    rel="noopener"
+                    href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Producto:%20____.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20fotos."
+                  >
+                    <i class="fa-brands fa-whatsapp me-2"></i> Enviar solicitud
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a
+                    class="btn btn-outline-light btn-lg w-100 rounded-pill"
+                    href="#servicios"
+                  >
+                    Ver servicios
+                  </a>
+                </div>
+              </div>
+
+              <div class="small mt-4 text-white-75">
+                <i class="fa-solid fa-lock me-2"></i>Tu información se usa solo
+                para responder tu solicitud.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 text-center small footer">
+      <div class="container">
+        <div class="text-muted">
+          © 2026 devidrios — Carpintería en aluminio — Puente Alto, Chile
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating -->
+    <a
+      class="wa-float"
+      aria-label="Contactar por WhatsApp"
+      target="_blank"
+      rel="noopener"
+      href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar.%20Producto:%20____.%20Medidas:%20____.%20Comuna:%20____."
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- MODALS (sin cambios) -->
+    <div class="modal fade" id="mVentanas" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-solid fa-window-maximize me-2"></i>Ventanas
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Fabricación e instalación de ventanas de aluminio. También
+              realizamos ajustes y reparaciones.
+            </p>
+            <ul class="text-muted">
+              <li>Correderas / proyectantes (según disponibilidad)</li>
+              <li>Sellos y terminaciones prolijas</li>
+              <li>Retiro en taller o instalación a domicilio</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar%20VENTANA%20de%20aluminio.%20Medidas:%20____%20(ancho%20x%20alto).%20Comuna:%20____.%20Adjunto%20foto."
+            >
+              Cotizar ventanas por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mShower" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-solid fa-shower me-2"></i>Shower Door
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Puertas de ducha a medida. Para cotizar, ideal enviar foto del
+              espacio y medidas aproximadas.
+            </p>
+            <ul class="text-muted">
+              <li>Herrajes y vidrio según requerimiento</li>
+              <li>Instalación prolija</li>
+              <li>Reparaciones (según caso)</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar%20SHOWER%20DOOR.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20fotos."
+            >
+              Cotizar shower door por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mTermo" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-solid fa-snowflake me-2"></i>Termopaneles
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Termopanel para mejorar aislamiento térmico y acústico. Reemplazos
+              y nuevas instalaciones.
+            </p>
+            <ul class="text-muted">
+              <li>Cotiza con medida del vano y foto</li>
+              <li>Instalación a domicilio o retiro</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar%20TERMOPANEL.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20foto."
+            >
+              Cotizar termopanel por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mEspejos" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-regular fa-square me-2"></i>Espejos
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Espejos a medida para distintos espacios. Para cotizar: medidas y
+              tipo de instalación.
+            </p>
+            <ul class="text-muted">
+              <li>Baño / living / gimnasio / comercio</li>
+              <li>Terminaciones y cortes según necesidad</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar%20ESPEJO%20a%20medida.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20foto."
+            >
+              Cotizar espejos por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mBow" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-solid fa-archway me-2"></i>Bow Window
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Diseñamos y fabricamos bow window. Ideal enviar foto del
+              muro/ventana actual y medidas.
+            </p>
+            <ul class="text-muted">
+              <li>Trabajo a medida</li>
+              <li>Coordinación de visita si corresponde</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20quiero%20cotizar%20BOW%20WINDOW.%20Medidas:%20____.%20Comuna:%20____.%20Adjunto%20foto."
+            >
+              Cotizar bow window por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mReparacion" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-soft">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">
+              <i class="fa-solid fa-screwdriver-wrench me-2"></i>Reparación e
+              Instalación
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body pt-0">
+            <p class="text-muted">
+              Reparaciones y ajustes: correderas, sellos, vidrios, filtraciones,
+              desajustes (según evaluación).
+            </p>
+            <ul class="text-muted">
+              <li>Envía foto/video del problema</li>
+              <li>Indica comuna y disponibilidad</li>
+            </ul>
+            <a
+              class="btn btn-accent rounded-pill w-100"
+              target="_blank"
+              rel="noopener"
+              href="https://wa.me/56967170330?text=Hola,%20necesito%20REPARACIÓN/INSTALACIÓN.%20Problema:%20____.%20Comuna:%20____.%20Adjunto%20foto/video."
+            >
+              Solicitar por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
